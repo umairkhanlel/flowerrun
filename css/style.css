@@ -190,12 +190,6 @@
 .main-container .content-container .inner-container .content-grid .content-left p {
   margin-bottom: 35px;
 }
-.main-container .content-container .inner-container .content-grid .content-left p:last-child {
-  margin: 0px;
-  color: #ffa0d4;
-  font-size: 50px;
-  font-family: "Amatic SC", cursive;
-}
 .main-container .content-container .inner-container .content-grid .content-left p a {
   color: #ffa0d4;
 }
