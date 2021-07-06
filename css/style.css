@@ -33,7 +33,7 @@
   margin-right: 20px;
 }
 .main-container header .head-bar .inner-container .bar-grid .head-icon {
-  text-align: right;
+  justify-self: end;
 }
 .main-container header .head-bar .inner-container .bar-grid .head-icon ul {
   display: inline-block;
@@ -53,12 +53,13 @@
 }
 .main-container header .head-bar .inner-container .bar-grid .head-icon ul li a i {
   color: #000000;
-  font-size: 15px;
+  font-size: 12px;
   width: 20px;
   height: 20px;
 }
 .main-container header .head-bar .inner-container .bar-grid .cart {
   text-align: center;
+  padding: 8px;
 }
 .main-container header .head-bar .inner-container .bar-grid .cart a {
   margin-right: 8px;
@@ -68,7 +69,6 @@
 }
 .main-container header .head-bar .inner-container .bar-grid .cart p .cart-item {
   color: #ffa0d4;
-  margin-right: 6px;
 }
 .main-container header .inner-container .menu {
   display: grid;
@@ -76,7 +76,7 @@
   grid-gap: 50px;
   align-items: center;
   margin-bottom: 30px;
-  padding-left: 90px;
+  padding: 0px 60px;
 }
 .main-container header .inner-container .menu ul li {
   display: inline-block;
@@ -115,7 +115,7 @@
   padding: 20px;
 }
 .main-container .img-container .inner-container .banner .banner-text {
-  width: 410px;
+  width: 100%;
   height: 145px;
   border: 7px solid;
   border-color: #f8f8f8;
@@ -148,7 +148,7 @@
 }
 .main-container .shop-container .inner-container .shop-windows {
   display: grid;
-  grid-template-columns: 368px 368px 1fr;
+  grid-template-columns: auto auto auto;
   grid-gap: 30px;
 }
 .main-container .shop-container .inner-container .shop-windows img {
@@ -250,7 +250,7 @@
 }
 .main-container footer .inner-container .menu-grid .menu-icon .menu-1 .icons ul li a i {
   color: #000000;
-  font-size: 15px;
+  font-size: 12px;
   width: 20px;
   height: 20px;
 }
