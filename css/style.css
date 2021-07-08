@@ -45,6 +45,9 @@
 .main-container header .head-bar .inner-container .bar-grid .head-icon ul li:last-child {
   margin: 0px;
 }
+.main-container header .head-bar .inner-container .bar-grid .head-icon ul li:hover {
+  cursor: pointer;
+}
 .main-container header .head-bar .inner-container .bar-grid .head-icon ul li a {
   text-align: center;
   text-decoration: none;
@@ -53,13 +56,16 @@
 }
 .main-container header .head-bar .inner-container .bar-grid .head-icon ul li a i {
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   width: 20px;
   height: 20px;
 }
 .main-container header .head-bar .inner-container .bar-grid .cart {
   text-align: center;
   padding: 8px;
+}
+.main-container header .head-bar .inner-container .bar-grid .cart:hover {
+  cursor: pointer;
 }
 .main-container header .head-bar .inner-container .bar-grid .cart a {
   margin-right: 8px;
@@ -93,6 +99,10 @@
 }
 .main-container header .inner-container .menu ul li:hover {
   color: #ffa0d4;
+  cursor: pointer;
+}
+.main-container header .inner-container .menu img:hover {
+  cursor: pointer;
 }
 .main-container .img-container {
   position: relative;
@@ -103,10 +113,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+.main-container .img-container .inner-container .product-images:hover {
+  cursor: pointer;
+}
 .main-container .img-container .inner-container .banner {
   position: absolute;
-  bottom: 300px;
-  left: 565px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
   align-items: center;
   height: 200px;
@@ -123,6 +137,9 @@
   background-color: #ffa0d4;
   font-size: 25px;
   text-align: center;
+}
+.main-container .img-container .inner-container .banner .banner-text:hover {
+  cursor: pointer;
 }
 .main-container .img-container .inner-container .banner .banner-text h2 {
   font-family: "Amatic SC", cursive;
@@ -154,11 +171,17 @@
 .main-container .shop-container .inner-container .shop-windows img {
   vertical-align: bottom;
 }
+.main-container .shop-container .inner-container .shop-windows img:hover {
+  cursor: pointer;
+}
 .main-container .shop-container .inner-container .shop-windows button {
   width: 368px;
   height: 65px;
   border: none;
   background-color: #000000;
+}
+.main-container .shop-container .inner-container .shop-windows button:hover {
+  cursor: pointer;
 }
 .main-container .shop-container .inner-container .shop-windows button a {
   font-family: "Amatic SC", cursive;
@@ -193,6 +216,12 @@
 .main-container .content-container .inner-container .content-grid .content-left p a {
   color: #ffa0d4;
 }
+.main-container .content-container .inner-container .content-grid .content-left p a:hover {
+  cursor: pointer;
+}
+.main-container .content-container .inner-container .content-grid .content-left img:hover {
+  cursor: pointer;
+}
 .main-container .content-container .inner-container .content-grid .content-right h3 {
   margin-bottom: 25px;
   font-weight: bold;
@@ -207,6 +236,9 @@
 .main-container .content-container .inner-container .content-grid .content-right p a {
   color: #ffa0d4;
 }
+.main-container .content-container .inner-container .content-grid .content-right p a:hover {
+  cursor: pointer;
+}
 .main-container footer {
   background-color: #000000;
   height: 165px;
@@ -220,44 +252,59 @@
 }
 .main-container footer .inner-container .menu-grid .menu-icon {
   text-align: right;
-}
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 {
+  justify-self: end;
   font-size: 12px;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 ul {
+.main-container footer .inner-container .menu-grid .menu-icon ul {
   margin-bottom: 20px;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 ul li {
+.main-container footer .inner-container .menu-grid .menu-icon ul li {
   display: inline-block;
   color: #dddddd;
   margin-right: 8px;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 ul li:last-child {
+.main-container footer .inner-container .menu-grid .menu-icon ul li:last-child {
   margin: 0px;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 .icons ul li {
+.main-container footer .inner-container .menu-grid .menu-icon ul li:hover {
+  cursor: pointer;
+}
+.main-container footer .inner-container .menu-grid .menu-icon .icons ul {
+  display: inline-block;
+}
+.main-container footer .inner-container .menu-grid .menu-icon .icons ul li {
   margin-right: 5px;
   display: inline-block;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 .icons ul li:last-child {
+.main-container footer .inner-container .menu-grid .menu-icon .icons ul li:last-child {
   margin: 0px;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 .icons ul li a {
+.main-container footer .inner-container .menu-grid .menu-icon .icons ul li a {
   text-align: center;
   text-decoration: none;
+  border: 1px solid pink;
   border-radius: 50%;
   background-color: #ffa0d4;
 }
-.main-container footer .inner-container .menu-grid .menu-icon .menu-1 .icons ul li a i {
+.main-container footer .inner-container .menu-grid .menu-icon .icons ul li a i {
   color: #000000;
-  font-size: 12px;
+  font-size: 14px;
   width: 20px;
   height: 20px;
+}
+.main-container footer .inner-container .menu-grid img:hover {
+  cursor: pointer;
+}
+.main-container footer .inner-container .menu-grid .para {
+  justify-self: start;
 }
 .main-container footer .inner-container .menu-grid .para p {
   color: #dddddd;
   margin-bottom: 20px;
   font-size: 12px;
+}
+.main-container footer .inner-container .menu-grid .para p:last-child:hover {
+  cursor: pointer;
 }
 .main-container footer .inner-container .menu-grid .para p a {
   color: #ffffff;
